@@ -30,7 +30,8 @@ function App() {
       id: "anime-world-fullstack",
       title: "Anime World Fullstack",
       description: "A full-stack anime streaming platform built with React, Node.js, and MongoDB",
-      youtubeLink: "https://youtu.be/EYL2CTwX8uU?si=CsCxepVzvaWyuMSF", // Placeholder, replace with actual video
+      image: "https://via.placeholder.com/400x300?text=Anime+World", // Added image
+      // youtubeLink: "https://youtu.be/EYL2CTwX8uU?si=CsCxepVzvaWyuMSF", // Commented out
       githubLink: "https://github.com/username/anime-world-fullstack",
       demoLink: "https://demo-link.com/anime-world",
       category: "FullStack",
@@ -39,7 +40,8 @@ function App() {
       id: "myshop",
       title: "MyShop",
       description: "A full-stack online shopping platform with React, Node.js, and Express",
-      youtubeLink: "https://www.youtube.com/embed/3tDrXGLoRwM", // Placeholder, replace with actual video
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192343/zydku5wwbnsexttflvki.png", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/3tDrXGLoRwM", // Commented out
       githubLink: "https://github.com/username/myshop",
       demoLink: "https://shop-mrlt.vercel.app/",
       category: "FullStack",
@@ -48,7 +50,8 @@ function App() {
       id: "crunchyroll-clone",
       title: "Crunchyroll Clone",
       description: "A frontend clone of Crunchyroll's anime streaming interface using React",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192398/fbxheyj3vlv5q8hucxbq.png", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/crunchyroll-clone",
       demoLink: "https://crunchyroll-07ll.onrender.com/",
       category: "Frontend",
@@ -57,16 +60,18 @@ function App() {
       id: "ajio-clone",
       title: "Ajio Clone",
       description: "A frontend clone of Ajio's e-commerce platform built with React",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://via.placeholder.com/400x300?text=Ajio+Clone", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/ajio-clone",
-      demoLink: "https://demo-link.com/ajio",
+      demoLink: "https://ajio-wqkr.vercel.app/",
       category: "Frontend",
     },
     {
       id: "when-in-city",
       title: "When in City",
       description: "A frontend travel guide app for city exploration using JavaScript and React",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192418/cn1isteqd4suixmn48g9.png", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/when-in-city",
       demoLink: "https://when-in-city.onrender.com",
       category: "Frontend",
@@ -75,7 +80,8 @@ function App() {
       id: "fastack",
       title: "Fastack",
       description: "A frontend task management app built with React and Tailwind CSS",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192468/wlju0jqkj9wtisvhple8.png", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/fastack",
       demoLink: "https://fastrack.onrender.com/",
       category: "Frontend",
@@ -84,7 +90,8 @@ function App() {
       id: "calculator",
       title: "Calculator",
       description: "A responsive calculator app built with JavaScript and CSS",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://via.placeholder.com/400x300?text=Calculator", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/calculator",
       demoLink: "https://demo-link.com/calculator",
       category: "Frontend",
@@ -93,7 +100,8 @@ function App() {
       id: "static-ludo-board",
       title: "Static Ludo Board",
       description: "A static Ludo board UI built with HTML and CSS",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://via.placeholder.com/400x300?text=Static+Ludo+Board", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/static-ludo-board",
       demoLink: "https://demo-link.com/static-ludo-board",
       category: "Frontend",
@@ -102,7 +110,8 @@ function App() {
       id: "spotify-clone",
       title: "Spotify Clone",
       description: "A frontend clone of Spotify's music streaming interface using React",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192500/d853fudjif0sefvpb9s2.png", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/spotify-clone",
       demoLink: "https://task-rouge-two.vercel.app/",
       category: "Frontend",
@@ -111,7 +120,8 @@ function App() {
       id: "youtube-clone",
       title: "YouTube Clone",
       description: "A frontend clone of YouTube's video streaming interface using React",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192526/waplkwj60zsfhn5yevq8.png", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/youtube-clone",
       demoLink: "https://youtubereact-indol.vercel.app/",
       category: "Frontend",
@@ -120,7 +130,8 @@ function App() {
       id: "static-sudoku",
       title: "Static Sudoku",
       description: "A static Sudoku board UI built with HTML and CSS",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://via.placeholder.com/400x300?text=Static+Sudoku", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/static-sudoku",
       demoLink: "https://demo-link.com/static-sudoku",
       category: "Frontend",
@@ -129,16 +140,18 @@ function App() {
       id: "2048-game",
       title: "2048",
       description: "A classic 2048 number puzzle game built with JavaScript With full responsive",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://via.placeholder.com/400x300?text=2048+Game", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/2048-game",
-      demoLink: "https://demo-link.com/2048",
+      demoLink: "https://2048game-opal.vercel.app/",
       category: "Games",
     },
     {
       id: "snake-game",
       title: "Snake Game",
       description: "A retro Snake game developed using JavaScript and HTML5 Canvas",
-      youtubeLink: "https://www.youtube.com/watch?v=SS-Vr2tTSdQ", // Updated with your YouTube link
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192552/mhnscynznpyvbgllqjhv.png", // Added image
+      // youtubeLink: "https://www.youtube.com/watch?v=SS-Vr2tTSdQ", // Commented out
       githubLink: "https://github.com/username/snake-game",
       demoLink: "https://snack-game-swart.vercel.app/", // Fixed typo: "snack-game" to match your intent
       category: "Games",
@@ -147,7 +160,8 @@ function App() {
       id: "chess-game",
       title: "Chess",
       description: "An interactive Chess game with AI opponent built with React",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192579/qi3rnttgwfe5jz0fv9wi.png", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/chess-game",
       demoLink: "https://chess-game-mu-three.vercel.app/",
       category: "Games",
@@ -156,7 +170,8 @@ function App() {
       id: "instagram-redesign",
       title: "Instagram Redesign",
       description: "A modern UI/UX redesign of Instagram's interface in Figma",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://via.placeholder.com/400x300?text=Instagram+Redesign", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/instagram-redesign",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-3&t=yVzUmRSx8AwNhrrV-1",
       category: "Figma",
@@ -165,7 +180,8 @@ function App() {
       id: "anime-world-figma",
       title: "Anime World Design",
       description: "A vibrant UI design for an anime streaming platform in Figma",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://via.placeholder.com/400x300?text=Anime+World+Design", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/anime-world",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=2-9&t=yVzUmRSx8AwNhrrV-1",
       category: "Figma",
@@ -174,7 +190,8 @@ function App() {
       id: "ludo-design",
       title: "Ludo App Design",
       description: "A playful and intuitive UI design for a Ludo game app in Figma",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://via.placeholder.com/400x300?text=Ludo+App+Design", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/ludo-design",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-2&t=yVzUmRSx8AwNhrrV-1",
       category: "Figma",
@@ -183,7 +200,8 @@ function App() {
       id: "fast-shopping",
       title: "Fast Shopping",
       description: "A sleek e-commerce UI design for quick shopping in Figma",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://via.placeholder.com/400x300?text=Fast+Shopping", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/fast-shopping",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=0-1&t=yVzUmRSx8AwNhrrV-1",
       category: "Figma",
@@ -192,7 +210,8 @@ function App() {
       id: "coding-gita",
       title: "Coding Gita",
       description: "A clean UI design for a coding education platform in Figma",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://via.placeholder.com/400x300?text=Coding+Gita", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/coding-gita",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-5&t=yVzUmRSx8AwNhrrV-1",
       category: "Figma",
@@ -201,7 +220,8 @@ function App() {
       id: "indian-gov-design",
       title: "Indian Government Websites and Apps",
       description: "A user-friendly redesign of Indian government digital interfaces in Figma",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://via.placeholder.com/400x300?text=Indian+Gov+Design", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/indian-gov-design",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-10&t=yVzUmRSx8AwNhrrV-1",
       category: "Figma",
@@ -210,7 +230,8 @@ function App() {
       id: "scanner-design",
       title: "Scanner App Design",
       description: "A minimalist UI design for a document scanner app in Figma",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://via.placeholder.com/400x300?text=Scanner+App+Design", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/scanner-design",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=2-5&t=yVzUmRSx8AwNhrrV-1",
       category: "Figma",
@@ -219,7 +240,8 @@ function App() {
       id: "roadhelp-design",
       title: "RoadHelp",
       description: "A UI design for a roadside assistance app in Figma",
-      youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Replace with actual video ID
+      image: "https://via.placeholder.com/400x300?text=RoadHelp", // Added image
+      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/roadhelp-design",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=2-8&t=yVzUmRSx8AwNhrrV-1",
       category: "Figma",
@@ -313,65 +335,65 @@ function App() {
 
       {/* Hero Section */}
       <section id="home" className="min-h-screen flex items-center justify-center relative bg-gray-50">
-  <div className="container mx-auto px-6">
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-      {/* Left Side: Text Content */}
-      <motion.div
-        initial={{ opacity: 0, x: -50 }} // Slide in from the left
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.5, ease: "easeOut" }}
-        className="text-left"
-      >
-        <h1 className="text-4xl md:text-6xl font-bold text-accent mb-6">
-          Hi I'm <span className="text-primary">Prem Kambaliya</span>
-        </h1>
-        <h1 className="text-4xl md:text-6xl font-bold text-accent mb-6">
-          I'm{' '}
-          <span className="text-primary">
-            <TypeAnimation
-              sequence={[
-                'A Passionate Developer',
-                2000,
-                'Frontend Magician',
-                2000,
-                'API Mastermind',
-                2000,
-                'Design Hacker',
-                2000,
-                'Syntax Ninja',
-                2000,
-              ]}
-              speed={50}
-              repeat={Infinity}
-            />
-          </span>
-        </h1>
-        <p className="text-xl text-text mb-8">
-          Turning ideas into reality through code and design
-        </p>
-        <div className="flex space-x-4">
-          <SocialLink href="https://github.com/Premkambaliya" icon={<Github />} />
-          <SocialLink href="https://www.linkedin.com/in/premkambaliya/" icon={<Linkedin />} />
-          <SocialLink href="mailto:premkambaliya1@gmail.com" icon={<Mail />} />
-        </div>
-      </motion.div>
+        <div className="container mx-auto px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            {/* Left Side: Text Content */}
+            <motion.div
+              initial={{ opacity: 0, x: -50 }} // Slide in from the left
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, ease: "easeOut" }}
+              className="text-left"
+            >
+              <h1 className="text-4xl md:text-6xl font-bold text-accent mb-6">
+                Hi I'm <span className="text-primary">Prem Kambaliya</span>
+              </h1>
+              <h1 className="text-4xl md:text-6xl font-bold text-accent mb-6">
+                I'm{' '}
+                <span className="text-primary">
+                  <TypeAnimation
+                    sequence={[
+                      'A Passionate Developer',
+                      2000,
+                      'Frontend Magician',
+                      2000,
+                      'API Mastermind',
+                      2000,
+                      'Design Hacker',
+                      2000,
+                      'Syntax Ninja',
+                      2000,
+                    ]}
+                    speed={50}
+                    repeat={Infinity}
+                  />
+                </span>
+              </h1>
+              <p className="text-xl text-text mb-8">
+                Turning ideas into reality through code and design
+              </p>
+              <div className="flex space-x-4">
+                <SocialLink href="https://github.com/Premkambaliya" icon={<Github />} />
+                <SocialLink href="https://www.linkedin.com/in/premkambaliya/" icon={<Linkedin />} />
+                <SocialLink href="mailto:premkambaliya1@gmail.com" icon={<Mail />} />
+              </div>
+            </motion.div>
 
-      {/* Right Side: Photo */}
-      <motion.div
-        initial={{ opacity: 0, x: 50 }} // Slide in from the right
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.5, ease: "easeOut" }}
-        className="flex justify-center md:justify-end"
-      >
-        <img
-          src="https://via.placeholder.com/300x400" // Placeholder image; replace with your photo URL
-          alt="Prem Kambaliya"
-          className="w-64 h-80 md:w-80 md:h-96 object-cover rounded-lg shadow-lg"
-        />
-      </motion.div>
-    </div>
-  </div>
-</section>
+            {/* Right Side: Photo */}
+            <motion.div
+              initial={{ opacity: 0, x: 50 }} // Slide in from the right
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, ease: "easeOut" }}
+              className="flex justify-center md:justify-end"
+            >
+              <img
+                src="https://via.placeholder.com/300x400" // Placeholder image; replace with your photo URL
+                alt="Prem Kambaliya"
+                className="w-64 h-80 md:w-80 md:h-96 object-cover rounded-lg shadow-lg"
+              />
+            </motion.div>
+          </div>
+        </div>
+      </section>
 
       {/* Skills Section */}
       <section id="skills" className="py-20">
@@ -422,7 +444,7 @@ function App() {
                   <ProjectCard
                     title={project.title}
                     description={project.description}
-                    youtubeLink={project.youtubeLink}
+                    image={project.image} // Changed from youtubeLink to image
                     githubLink={project.githubLink}
                     demoLink={project.demoLink}
                   />
@@ -432,6 +454,7 @@ function App() {
           </div>
         </div>
       </section>
+
       {/* Education Section */}
       <section id="education" className="py-20">
         <div className="container mx-auto px-6">
@@ -595,11 +618,11 @@ const SkillCategoryCard = ({ category, icon, skills }) => (
   </motion.div>
 );
 
-const ProjectCard = ({ title, description, youtubeLink, githubLink, demoLink }) => {
-  // Convert YouTube watch URL to embed URL if necessary
-  const embedUrl = youtubeLink.includes('watch?v=')
-    ? youtubeLink.replace('watch?v=', 'embed/').split('&')[0]
-    : youtubeLink;
+const ProjectCard = ({ title, description, image, githubLink, demoLink }) => {
+  // Commented out YouTube embed logic
+  // const embedUrl = youtubeLink.includes('watch?v=')
+  //   ? youtubeLink.replace('watch?v=', 'embed/').split('&')[0]
+  //   : youtubeLink;
 
   return (
     <motion.div
@@ -610,7 +633,13 @@ const ProjectCard = ({ title, description, youtubeLink, githubLink, demoLink }) 
       className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all"
     >
       <div className="w-full h-48">
-        <iframe
+        <img
+          src={image}
+          alt={`${title} Preview`}
+          className="w-full h-full object-cover"
+        />
+        {/* Commented out iframe for YouTube */}
+        {/* <iframe
           width="100%"
           height="100%"
           src={embedUrl}
@@ -619,7 +648,7 @@ const ProjectCard = ({ title, description, youtubeLink, githubLink, demoLink }) 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
           className="object-cover"
-        ></iframe>
+        ></iframe> */}
       </div>
       <div className="p-6">
         <h3 className="text-xl font-semibold text-accent mb-2">{title}</h3>
