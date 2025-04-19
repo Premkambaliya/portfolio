@@ -30,10 +30,10 @@ function App() {
       id: "anime-world-fullstack",
       title: "Anime World Fullstack",
       description: "A full-stack anime streaming platform built with React, Node.js, and MongoDB",
-      image: "https://via.placeholder.com/400x300?text=Anime+World", // Added image
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745082459/ovezvrhpyypbxspkohcf.png", // Added image
       // youtubeLink: "https://youtu.be/EYL2CTwX8uU?si=CsCxepVzvaWyuMSF", // Commented out
       githubLink: "https://github.com/username/anime-world-fullstack",
-      demoLink: "https://demo-link.com/anime-world",
+      demoLink: "https://anime-world-frontend.vercel.app",
       category: "FullStack",
     },
     {
@@ -60,7 +60,7 @@ function App() {
       id: "ajio-clone",
       title: "Ajio Clone",
       description: "A frontend clone of Ajio's e-commerce platform built with React",
-      image: "https://via.placeholder.com/400x300?text=Ajio+Clone", // Added image
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745082381/yn5kb68urodct0wk5jr2.png", // Added image
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/ajio-clone",
       demoLink: "https://ajio-wqkr.vercel.app/",
@@ -100,7 +100,7 @@ function App() {
       id: "static-ludo-board",
       title: "Static Ludo Board",
       description: "A static Ludo board UI built with HTML and CSS",
-      image: "https://via.placeholder.com/400x300?text=Static+Ludo+Board", // Added image
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081187/boudja9vw37eake0zndn.png", // Added image
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/static-ludo-board",
       demoLink: "https://demo-link.com/static-ludo-board",
@@ -130,17 +130,17 @@ function App() {
       id: "static-sudoku",
       title: "Static Sudoku",
       description: "A static Sudoku board UI built with HTML and CSS",
-      image: "https://via.placeholder.com/400x300?text=Static+Sudoku", // Added image
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745084161/lmsrcqmfoeh63fv4bhhv.png", // Added image
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/static-sudoku",
-      demoLink: "https://demo-link.com/static-sudoku",
+      demoLink: "https://sudokucg.netlify.app/",
       category: "Frontend",
     },
     {
       id: "2048-game",
       title: "2048",
       description: "A classic 2048 number puzzle game built with JavaScript With full responsive",
-      image: "https://via.placeholder.com/400x300?text=2048+Game", // Added image
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081736/qsupsr3cdbivmk3iyagt.png", // Added image
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/2048-game",
       demoLink: "https://2048game-opal.vercel.app/",
@@ -170,7 +170,7 @@ function App() {
       id: "instagram-redesign",
       title: "Instagram Redesign",
       description: "A modern UI/UX redesign of Instagram's interface in Figma",
-      image: "https://via.placeholder.com/400x300?text=Instagram+Redesign", // Added image
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081148/sy3tjclbrvyvsctqlk0s.png", // Added image
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/instagram-redesign",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-3&t=yVzUmRSx8AwNhrrV-1",
@@ -180,7 +180,7 @@ function App() {
       id: "anime-world-figma",
       title: "Anime World Design",
       description: "A vibrant UI design for an anime streaming platform in Figma",
-      image: "https://via.placeholder.com/400x300?text=Anime+World+Design", // Added image
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081078/pemxndt7vrjau3qudwzf.png", // Added image
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/anime-world",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=2-9&t=yVzUmRSx8AwNhrrV-1",
@@ -190,7 +190,7 @@ function App() {
       id: "ludo-design",
       title: "Ludo App Design",
       description: "A playful and intuitive UI design for a Ludo game app in Figma",
-      image: "https://via.placeholder.com/400x300?text=Ludo+App+Design", // Added image
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081187/boudja9vw37eake0zndn.png", // Added image
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/ludo-design",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-2&t=yVzUmRSx8AwNhrrV-1",
@@ -200,7 +200,7 @@ function App() {
       id: "fast-shopping",
       title: "Fast Shopping",
       description: "A sleek e-commerce UI design for quick shopping in Figma",
-      image: "https://via.placeholder.com/400x300?text=Fast+Shopping", // Added image
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081340/i4t8gudt5ttfpjqrbqk9.png", // Added image
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/fast-shopping",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=0-1&t=yVzUmRSx8AwNhrrV-1",
@@ -210,7 +210,7 @@ function App() {
       id: "coding-gita",
       title: "Coding Gita",
       description: "A clean UI design for a coding education platform in Figma",
-      image: "https://via.placeholder.com/400x300?text=Coding+Gita", // Added image
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081418/mhyff1jnzq1couvvukvu.png", // Added image
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/coding-gita",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-5&t=yVzUmRSx8AwNhrrV-1",
@@ -220,7 +220,7 @@ function App() {
       id: "indian-gov-design",
       title: "Indian Government Websites and Apps",
       description: "A user-friendly redesign of Indian government digital interfaces in Figma",
-      image: "https://via.placeholder.com/400x300?text=Indian+Gov+Design", // Added image
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081442/mtc7ky2ozbutzazw5lbx.png", // Added image
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/indian-gov-design",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-10&t=yVzUmRSx8AwNhrrV-1",
@@ -230,7 +230,7 @@ function App() {
       id: "scanner-design",
       title: "Scanner App Design",
       description: "A minimalist UI design for a document scanner app in Figma",
-      image: "https://via.placeholder.com/400x300?text=Scanner+App+Design", // Added image
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081480/qha7jhhskalabcipm5dy.png", // Added image
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/scanner-design",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=2-5&t=yVzUmRSx8AwNhrrV-1",
@@ -240,7 +240,7 @@ function App() {
       id: "roadhelp-design",
       title: "RoadHelp",
       description: "A UI design for a roadside assistance app in Figma",
-      image: "https://via.placeholder.com/400x300?text=RoadHelp", // Added image
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081521/vsmid7jolub5syrnv3uc.png", // Added image
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
       githubLink: "https://github.com/username/roadhelp-design",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=2-8&t=yVzUmRSx8AwNhrrV-1",
