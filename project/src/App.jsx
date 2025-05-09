@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
 import { Link } from 'react-scroll';
+import Myphoto from './assets/Photo.jpg'
 import {
   Menu,
   X,
@@ -31,8 +32,9 @@ function App() {
       title: "Anime World Fullstack",
       description: "A full-stack anime streaming platform built with React, Node.js, and MongoDB",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745082459/ovezvrhpyypbxspkohcf.png", // Added image
+      year: "2024", // Added year
       // youtubeLink: "https://youtu.be/EYL2CTwX8uU?si=CsCxepVzvaWyuMSF", // Commented out
-      githubLink: "https://github.com/username/anime-world-fullstack",
+      githubLink: "https://github.com/Premkambaliya/anime_world",
       demoLink: "https://anime-world-frontend.vercel.app",
       category: "FullStack",
     },
@@ -41,8 +43,9 @@ function App() {
       title: "MyShop",
       description: "A full-stack online shopping platform with React, Node.js, and Express",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192343/zydku5wwbnsexttflvki.png", // Added image
+      year: "2024", // Added year
       // youtubeLink: "https://www.youtube.com/embed/3tDrXGLoRwM", // Commented out
-      githubLink: "https://github.com/username/myshop",
+      githubLink: "https://github.com/Premkambaliya/Shop",
       demoLink: "https://shop-mrlt.vercel.app/",
       category: "FullStack",
     },
@@ -51,8 +54,9 @@ function App() {
       title: "Crunchyroll Clone",
       description: "A frontend clone of Crunchyroll's anime streaming interface using React",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192398/fbxheyj3vlv5q8hucxbq.png", // Added image
+      year: "2023", // Added year
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/crunchyroll-clone",
+      githubLink: "https://github.com/Premkambaliya/Crunchyroll",
       demoLink: "https://crunchyroll-07ll.onrender.com/",
       category: "Frontend",
     },
@@ -61,8 +65,9 @@ function App() {
       title: "Ajio Clone",
       description: "A frontend clone of Ajio's e-commerce platform built with React",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745082381/yn5kb68urodct0wk5jr2.png", // Added image
+      year: "2023", // Added year
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/ajio-clone",
+      githubLink: "https://github.com/Premkambaliya/AJIO",
       demoLink: "https://ajio-wqkr.vercel.app/",
       category: "Frontend",
     },
@@ -71,8 +76,9 @@ function App() {
       title: "When in City",
       description: "A frontend travel guide app for city exploration using JavaScript and React",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192418/cn1isteqd4suixmn48g9.png", // Added image
+      year: "2024", // Added year
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/when-in-city",
+      githubLink: "https://github.com/Premkambaliya/When-in-City",
       demoLink: "https://when-in-city.onrender.com",
       category: "Frontend",
     },
@@ -81,29 +87,10 @@ function App() {
       title: "Fastack",
       description: "A frontend task management app built with React and Tailwind CSS",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192468/wlju0jqkj9wtisvhple8.png", // Added image
+      year: "2023", // Added year
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/fastack",
+      githubLink: "https://github.com/Premkambaliya/Fastrack",
       demoLink: "https://fastrack.onrender.com/",
-      category: "Frontend",
-    },
-    {
-      id: "calculator",
-      title: "Calculator",
-      description: "A responsive calculator app built with JavaScript and CSS",
-      image: "https://via.placeholder.com/400x300?text=Calculator", // Added image
-      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/calculator",
-      demoLink: "https://demo-link.com/calculator",
-      category: "Frontend",
-    },
-    {
-      id: "static-ludo-board",
-      title: "Static Ludo Board",
-      description: "A static Ludo board UI built with HTML and CSS",
-      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081187/boudja9vw37eake0zndn.png", // Added image
-      // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/static-ludo-board",
-      demoLink: "https://demo-link.com/static-ludo-board",
       category: "Frontend",
     },
     {
@@ -111,8 +98,9 @@ function App() {
       title: "Spotify Clone",
       description: "A frontend clone of Spotify's music streaming interface using React",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192500/d853fudjif0sefvpb9s2.png", // Added image
+      year: "2024", // Added year
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/spotify-clone",
+      githubLink: "https://github.com/Premkambaliya/Spotify",
       demoLink: "https://task-rouge-two.vercel.app/",
       category: "Frontend",
     },
@@ -121,8 +109,9 @@ function App() {
       title: "YouTube Clone",
       description: "A frontend clone of YouTube's video streaming interface using React",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192526/waplkwj60zsfhn5yevq8.png", // Added image
+      year: "2024", // Added year
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/youtube-clone",
+      githubLink: "https://github.com/Premkambaliya/Youtube",
       demoLink: "https://youtubereact-indol.vercel.app/",
       category: "Frontend",
     },
@@ -131,8 +120,9 @@ function App() {
       title: "Static Sudoku",
       description: "A static Sudoku board UI built with HTML and CSS",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745084161/lmsrcqmfoeh63fv4bhhv.png", // Added image
+      year: "2023", // Added year
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/static-sudoku",
+      githubLink: "https://github.com/Premkambaliya/SUDOKU",
       demoLink: "https://sudokucg.netlify.app/",
       category: "Frontend",
     },
@@ -141,8 +131,9 @@ function App() {
       title: "2048",
       description: "A classic 2048 number puzzle game built with JavaScript With full responsive",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081736/qsupsr3cdbivmk3iyagt.png", // Added image
+      year: "2024", // Added year
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/2048-game",
+      githubLink: "https://github.com/Premkambaliya/2048-Game",
       demoLink: "https://2048game-opal.vercel.app/",
       category: "Games",
     },
@@ -151,8 +142,9 @@ function App() {
       title: "Snake Game",
       description: "A retro Snake game developed using JavaScript and HTML5 Canvas",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192552/mhnscynznpyvbgllqjhv.png", // Added image
+      year: "2023", // Added year
       // youtubeLink: "https://www.youtube.com/watch?v=SS-Vr2tTSdQ", // Commented out
-      githubLink: "https://github.com/username/snake-game",
+      githubLink: "https://github.com/Premkambaliya/Snack-Game",
       demoLink: "https://snack-game-swart.vercel.app/", // Fixed typo: "snack-game" to match your intent
       category: "Games",
     },
@@ -161,8 +153,9 @@ function App() {
       title: "Chess",
       description: "An interactive Chess game with AI opponent built with React",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1744192579/qi3rnttgwfe5jz0fv9wi.png", // Added image
+      year: "2024", // Added year
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/chess-game",
+      githubLink: "https://github.com/Premkambaliya/Chess-Game",
       demoLink: "https://chess-game-mu-three.vercel.app/",
       category: "Games",
     },
@@ -171,8 +164,9 @@ function App() {
       title: "Instagram Redesign",
       description: "A modern UI/UX redesign of Instagram's interface in Figma",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081148/sy3tjclbrvyvsctqlk0s.png", // Added image
+      year: "2024", // Added year
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/instagram-redesign",
+      // githubLink: "https://github.com/username/instagram-redesign",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-3&t=yVzUmRSx8AwNhrrV-1",
       category: "Figma",
     },
@@ -181,8 +175,9 @@ function App() {
       title: "Anime World Design",
       description: "A vibrant UI design for an anime streaming platform in Figma",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081078/pemxndt7vrjau3qudwzf.png", // Added image
+      year: "2024", // Added year
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/anime-world",
+      // githubLink: "https://github.com/username/anime-world",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=2-9&t=yVzUmRSx8AwNhrrV-1",
       category: "Figma",
     },
@@ -191,8 +186,9 @@ function App() {
       title: "Ludo App Design",
       description: "A playful and intuitive UI design for a Ludo game app in Figma",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081187/boudja9vw37eake0zndn.png", // Added image
+      year: "2023", // Added year
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/ludo-design",
+      // githubLink: "https://github.com/username/ludo-design",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-2&t=yVzUmRSx8AwNhrrV-1",
       category: "Figma",
     },
@@ -201,8 +197,9 @@ function App() {
       title: "Fast Shopping",
       description: "A sleek e-commerce UI design for quick shopping in Figma",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081340/i4t8gudt5ttfpjqrbqk9.png", // Added image
+      year: "2024", // Added year
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/fast-shopping",
+      // githubLink: "https://github.com/username/fast-shopping",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=0-1&t=yVzUmRSx8AwNhrrV-1",
       category: "Figma",
     },
@@ -211,8 +208,9 @@ function App() {
       title: "Coding Gita",
       description: "A clean UI design for a coding education platform in Figma",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081418/mhyff1jnzq1couvvukvu.png", // Added image
+      year: "2024", // Added year
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/coding-gita",
+      // githubLink: "https://github.com/username/coding-gita",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-5&t=yVzUmRSx8AwNhrrV-1",
       category: "Figma",
     },
@@ -221,8 +219,9 @@ function App() {
       title: "Indian Government Websites and Apps",
       description: "A user-friendly redesign of Indian government digital interfaces in Figma",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081442/mtc7ky2ozbutzazw5lbx.png", // Added image
+      year: "2024", // Added year
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/indian-gov-design",
+      // githubLink: "https://github.com/username/indian-gov-design",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=1-10&t=yVzUmRSx8AwNhrrV-1",
       category: "Figma",
     },
@@ -231,8 +230,9 @@ function App() {
       title: "Scanner App Design",
       description: "A minimalist UI design for a document scanner app in Figma",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081480/qha7jhhskalabcipm5dy.png", // Added image
+      year: "2024", // Added year
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/scanner-design",
+      // githubLink: "https://github.com/username/scanner-design",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=2-5&t=yVzUmRSx8AwNhrrV-1",
       category: "Figma",
     },
@@ -241,8 +241,9 @@ function App() {
       title: "RoadHelp",
       description: "A UI design for a roadside assistance app in Figma",
       image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1745081521/vsmid7jolub5syrnv3uc.png", // Added image
+      year: "2024", // Added year
       // youtubeLink: "https://www.youtube.com/embed/VIDEO_ID_HERE", // Commented out
-      githubLink: "https://github.com/username/roadhelp-design",
+      // githubLink: "https://github.com/username/roadhelp-design",
       demoLink: "https://www.figma.com/design/DTPG3EnZsGCmoRPZSl4mS2/Untitled?node-id=2-8&t=yVzUmRSx8AwNhrrV-1",
       category: "Figma",
     },
@@ -285,6 +286,22 @@ function App() {
     },
   ];
 
+  // Certificates data
+  const certificates = [
+    {
+      id: "react-js-cert",
+      title: "c language certification",
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1746822335/jicvyt7hahfmpmckvk80.jpg", // Placeholder image
+      link: "https://res.cloudinary.com/dczue3n9b/image/upload/v1746822335/jicvyt7hahfmpmckvk80.jpg", // Replace with actual link
+    },
+    {
+      id: "node-js-cert",
+      title: "Javascript Certification",
+      image: "https://res.cloudinary.com/dczue3n9b/image/upload/v1746822334/hu2hnelasdfkqvcquxc7.jpg", // Placeholder image
+      link: "https://res.cloudinary.com/dczue3n9b/image/upload/v1746822334/hu2hnelasdfkqvcquxc7.jpg", // Replace with actual link
+    },
+  ];
+
   return (
     <div className={`min-h-screen bg-white ${darkMode ? 'dark bg-accent' : ''}`}>
       {/* Navbar */}
@@ -297,6 +314,7 @@ function App() {
             <div className="hidden md:flex items-center space-x-8">
               <NavLink to="skills">Skills</NavLink>
               <NavLink to="projects">Projects</NavLink>
+              <NavLink to="certificates">Certificates</NavLink>
               <NavLink to="education">Education</NavLink>
               <NavLink to="about">About</NavLink>
               <NavLink to="contact">Contact</NavLink>
@@ -325,6 +343,7 @@ function App() {
                 <MobileNavLink to="about" onClick={toggleMenu}>About</MobileNavLink>
                 <MobileNavLink to="skills" onClick={toggleMenu}>Skills</MobileNavLink>
                 <MobileNavLink to="projects" onClick={toggleMenu}>Projects</MobileNavLink>
+                <MobileNavLink to="certificates" onClick={toggleMenu}>Certificates</MobileNavLink>
                 <MobileNavLink to="education" onClick={toggleMenu}>Education</MobileNavLink>
                 <MobileNavLink to="contact" onClick={toggleMenu}>Contact</MobileNavLink>
               </div>
@@ -358,10 +377,6 @@ function App() {
                       2000,
                       'API Mastermind',
                       2000,
-                      'Design Hacker',
-                      2000,
-                      'Syntax Ninja',
-                      2000,
                     ]}
                     speed={50}
                     repeat={Infinity}
@@ -386,9 +401,9 @@ function App() {
               className="flex justify-center md:justify-end"
             >
               <img
-                src="https://via.placeholder.com/300x400" // Placeholder image; replace with your photo URL
+                src={Myphoto} // Placeholder image; replace with your photo URL
                 alt="Prem Kambaliya"
-                className="w-64 h-80 md:w-80 md:h-96 object-cover rounded-lg shadow-lg"
+                className="w-64 h-80 md:w-80 md:h-96 object-cover rounded-lg shadow-lg mr-20"
               />
             </motion.div>
           </div>
@@ -444,13 +459,33 @@ function App() {
                   <ProjectCard
                     title={project.title}
                     description={project.description}
-                    image={project.image} // Changed from youtubeLink to image
+                    image={project.image}
+                    year={project.year}
                     githubLink={project.githubLink}
                     demoLink={project.demoLink}
                   />
                 </motion.div>
               ))}
             </AnimatePresence>
+          </div>
+        </div>
+      </section>
+
+      {/* Certificates Section */}
+      <section id="certificates" className="py-20">
+        <div className="container mx-auto px-6 max-w-5xl">
+          <SectionTitle>Certificates</SectionTitle>
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-20">
+            {certificates.map((certificate) => (
+              <CertificateCard
+                key={certificate.id}
+                title={certificate.title}
+                issuer={certificate.issuer}
+                year={certificate.year}
+                image={certificate.image}
+                link={certificate.link}
+              />
+            ))}
           </div>
         </div>
       </section>
@@ -463,7 +498,7 @@ function App() {
             <EducationCard
               degree="B.Tech in Computer Science"
               institution="CodingGita x Rai University"
-              year="2024 - 2028"
+              // year="2024 - 2028"
               details={[
                 "CGPA: 9.76/10",
                 "Currently pursuing a Bachelor's degree in Computer Science at Rai University, Ahmedabad (First Year). Exploring core subjects Like programming, data structures, and algorithms while building a strong foundation in problem-solving and analytical thinking. Engaging in coursework and projects to enhance my understanding of computer systems and software development.",
@@ -527,32 +562,46 @@ function App() {
 
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-gray-50">
-        <div className="container mx-auto px-6">
-          <SectionTitle>Contact Me</SectionTitle>
-          <div className="max-w-2xl mx-auto">
-            <form className="space-y-6">
-              <input
-                type="text"
-                placeholder="Name"
-                className="w-full px-4 py-3 rounded-lg bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary"
-              />
-              <input
-                type="email"
-                placeholder="Email"
-                className="w-full px-4 py-3 rounded-lg bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary"
-              />
-              <textarea
-                placeholder="Message"
-                rows={6}
-                className="w-full px-4 py-3 rounded-lg bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary"
-              />
-              <button className="w-full px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors">
-                Send Message
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>
+  <div className="container mx-auto px-6">
+    <SectionTitle>Contact Me</SectionTitle>
+    <div className="max-w-2xl mx-auto">
+      <form
+        action="https://formspree.io/f/xblokyka"
+        method="POST"
+        className="space-y-6"
+      >
+        <input
+          type="text"
+          name="name"
+          placeholder="Name"
+          required
+          className="w-full px-4 py-3 rounded-lg bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          required
+          className="w-full px-4 py-3 rounded-lg bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary"
+        />
+        <textarea
+          name="message"
+          placeholder="Message"
+          rows={6}
+          required
+          className="w-full px-4 py-3 rounded-lg bg-white border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary"
+        />
+        <button
+          type="submit"
+          className="w-full px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors"
+        >
+          Send Message
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
     </div>
   );
 }
@@ -618,7 +667,7 @@ const SkillCategoryCard = ({ category, icon, skills }) => (
   </motion.div>
 );
 
-const ProjectCard = ({ title, description, image, githubLink, demoLink }) => {
+const ProjectCard = ({ title, description, image, year, githubLink, demoLink }) => {
   // Commented out YouTube embed logic
   // const embedUrl = youtubeLink.includes('watch?v=')
   //   ? youtubeLink.replace('watch?v=', 'embed/').split('&')[0]
@@ -652,7 +701,8 @@ const ProjectCard = ({ title, description, image, githubLink, demoLink }) => {
       </div>
       <div className="p-6">
         <h3 className="text-xl font-semibold text-accent mb-2">{title}</h3>
-        <p className="text-text mb-4">{description}</p>
+        <p className="text-text mb-2">{description}</p>
+        <p className="text-text mb-4">Year: {year}</p>
         <div className="flex space-x-4">
           <a
             href={githubLink}
@@ -677,6 +727,38 @@ const ProjectCard = ({ title, description, image, githubLink, demoLink }) => {
     </motion.div>
   );
 };
+
+const CertificateCard = ({ title, issuer, year, image, link }) => (
+  <motion.div
+    initial={{ opacity: 0, y: 20 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+    whileHover={{ y: -5 }}
+    className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all"
+  >
+    <div className="w-full h-48">
+      <img
+        src={image}
+        alt={`${title} Certificate`}
+        className="w-full h-full object-cover"
+      />
+    </div>
+    <div className="p-6">
+      <h3 className="text-xl font-semibold text-accent mb-2">{title}</h3>
+      <h4 className="text-lg text-primary mb-2">{issuer}</h4>
+      <p className="text-text mb-4">Year: {year}</p>
+      <a
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center space-x-2 text-primary hover:text-primary/80"
+      >
+        <Globe className="w-4 h-4" />
+        <span>View Certificate</span>
+      </a>
+    </div>
+  </motion.div>
+);
 
 const EducationCard = ({ degree, institution, year, details }) => (
   <motion.div
