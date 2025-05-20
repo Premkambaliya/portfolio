@@ -1,0 +1,37 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #2563eb;
+  --primary-dark: #1e40af;
+  --accent: #1f2937;
+  --text: #4b5563;
+  --background: #f9fafb;
+}
+
+.dark {
+  --primary: #3b82f6;
+  --primary-dark: #2563eb;
+  --accent: #e5e7eb;
+  --text: #d1d5db;
+  --background: #111827;
+}
+
+@layer utilities {
+  .bg-background {
+    background-color: var(--background);
+  }
+  .text-text {
+    color: var(--text);
+  }
+}
+
+body {
+  @apply bg-background text-text transition-colors duration-300;
+}
+
+html {
+  scroll-behavior: smooth;
+}

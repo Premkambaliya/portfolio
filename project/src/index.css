@@ -2,11 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-::selection {
-  background-color: #00C4CC;
-  color: white;
+:root {
+  --primary: #3b82f6;
+  --primary-dark: #2563eb;
+  --accent: #e5e7eb;
+  --text: #d1d5db;
+  --background: #111827;
+  --section-bg: #1F2937;
 }
 
-.dark {
-  color-scheme: dark;
+@layer utilities {
+  .bg-background {
+    background-color: var(--background);
+  }
+  .text-text {
+    color: var(--text);
+  }
+  .text-primary {
+    color: var(--primary);
+  }
+  .bg-primary {
+    background-color: var(--primary);
+  }
+  .text-accent {
+    color: var(--accent);
+  }
+  .bg-section-bg {
+    background-color: var(--section-bg);
+  }
+  .hover\:bg-primary-dark:hover {
+    background-color: var(--primary-dark);
+  }
+  .hover\:text-primary-dark:hover {
+    color: var(--primary-dark);
+  }
+}
+
+body {
+  @apply bg-background text-text transition-colors duration-300;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
 }
